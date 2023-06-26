@@ -269,7 +269,7 @@ public class GameManager : MonoBehaviour
         levelField++;
         levelEnemy++;
         totalTileCount += ((totalTileCount/100)*50);
-        Debug.LogError("TotalTileCount" + totalTileCount);
+        //Debug.LogError("TotalTileCount" + totalTileCount);
         currPlayerHealt = MaxPlayerHealt;
         _healthBars.SetHealt(currPlayerHealt, MaxPlayerHealt);
         currentStamina = MaxPlayerStamina;

@@ -180,7 +180,7 @@ TextureImporter:
       213: -3247364116098153851
     second: Armor_58
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,6 +200,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -208,9 +210,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -231,10 +233,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -286,6 +292,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1548,6 +1578,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Armor_0: -2757887451555568444
+      Armor_1: 8057395214944995007
+      Armor_10: 9052161504835814757
+      Armor_11: 8106906011934125022
+      Armor_12: 7280614561070218308
+      Armor_13: 3966636543240989683
+      Armor_14: -64774034021574184
+      Armor_15: 5880386496244117005
+      Armor_16: 7926149223818998749
+      Armor_17: 714426312288904525
+      Armor_18: 5935675862632836086
+      Armor_19: -4032680140326508588
+      Armor_2: -4443136105927648964
+      Armor_20: -2901073741589171785
+      Armor_21: 1435430455851767847
+      Armor_22: -949447489718580930
+      Armor_23: 4847397113642301205
+      Armor_24: -819864584622903332
+      Armor_25: -7112477390338708479
+      Armor_26: -1617794363444318258
+      Armor_27: -4098688082309916508
+      Armor_28: -4075307207547835167
+      Armor_29: 6528657237286112955
+      Armor_3: -3022540174006795666
+      Armor_30: -2775804528520667304
+      Armor_31: -7994590738009291544
+      Armor_32: 2200968682135872851
+      Armor_33: 6011959495868738549
+      Armor_34: -8758610706182958605
+      Armor_35: -3434118352984757501
+      Armor_36: -3726308244449494318
+      Armor_37: 8138514194815037332
+      Armor_38: 7992452392257742540
+      Armor_39: -4566005293044317158
+      Armor_4: 1164585677716319106
+      Armor_40: -683216273308766644
+      Armor_41: -4548751759486180837
+      Armor_42: -1073987844763261183
+      Armor_43: 7680189922602546794
+      Armor_44: 789716112359889638
+      Armor_45: 3468441533324898341
+      Armor_46: -2119794011118777211
+      Armor_47: 7208579504515203597
+      Armor_48: 4440576342215167569
+      Armor_49: 4004240040221783974
+      Armor_5: 1065521576455249907
+      Armor_50: -8175796358636723434
+      Armor_51: 2555144691431709988
+      Armor_52: -5372435913972717035
+      Armor_53: 5609192478451495729
+      Armor_54: 465149074376736906
+      Armor_55: 3918350795600216780
+      Armor_56: 8228335048662734883
+      Armor_57: 4987887783092876545
+      Armor_58: -3247364116098153851
+      Armor_6: 7895749817385031138
+      Armor_7: -3562140918039840297
+      Armor_8: 4673541879292138243
+      Armor_9: -1398113343881063737
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

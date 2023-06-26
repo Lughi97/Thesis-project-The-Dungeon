@@ -77,19 +77,19 @@ public class Potions : MonoBehaviour
             case PotionCapacity.small:
                 Debug.Log("Small");
                 baseAmount = 5 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+                //Debug.LogError(_gameMan.baseValuePotion);
                 _player.getHealtPotion(baseAmount);
                 break;
             case PotionCapacity.medium:
                 Debug.Log("Medium");
                  baseAmount =10 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+               // Debug.LogError(_gameMan.baseValuePotion);
                 _player.getHealtPotion(baseAmount);
                 break;
             case PotionCapacity.big:
                 Debug.Log("Big");
                 baseAmount = 15 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+                //Debug.LogError(_gameMan.baseValuePotion);
                 _player.getHealtPotion(baseAmount);
                 break;
             case PotionCapacity.giaiant:
@@ -296,19 +296,19 @@ public class Potions : MonoBehaviour
             case PotionCapacity.small:
                 Debug.Log("Small");
                 baseAmount = 5 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+                //Debug.LogError(_gameMan.baseValuePotion);
                 _player.getManaPotion(baseAmount);
                 break;
             case PotionCapacity.medium:
                 Debug.Log("Medium");
                 baseAmount = 10 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+                // Debug.LogError(_gameMan.baseValuePotion);
                 _player.getManaPotion(baseAmount);
                 break;
             case PotionCapacity.big:
                 Debug.Log("Big");
                 baseAmount = 15 + _gameMan.baseValuePotion;
-                Debug.LogError(_gameMan.baseValuePotion);
+                //Debug.LogError(_gameMan.baseValuePotion);
                 _player.getManaPotion(baseAmount);
                 break;
             case PotionCapacity.giaiant:

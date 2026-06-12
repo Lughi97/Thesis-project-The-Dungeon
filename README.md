@@ -130,4 +130,13 @@ Six potion types with four size tiers (`small`, `medium`, `big`, `giant`). Effec
 
 Changing dungeon type: If you want to change the dungeon layout style, open Assets/Prefabs/Scenes/Game.unity, select the Environment GameObject in the Hierarchy, and set the DungeonType field on the DungeonManager component (Cave, Room, CrossRoom, VerticalCrossRoom, or BossRoom) before pressing Play.
 
+---
+## References
+
+Graphics asset acknowledgment:
+The the graphics used in this project are from the 32x32 tileset 
+originally drawn by David Gervais for Angband. 
+Source available at: [angbad](https://github.com/angband/angband)
+These assets are licensed under the Creative Commons Attribution 3.0 
+Unported License (CC-BY 3.0): [license](http://creativecommons.org/licenses/by/3.0/)
 

@@ -133,10 +133,7 @@ Changing dungeon type: If you want to change the dungeon layout style, open Asse
 ---
 ## References
 
-Graphics asset acknowledgment:
-The the graphics used in this project are from the 32x32 tileset 
-originally drawn by David Gervais for Angband. 
-Source available at: [angbad](https://github.com/angband/angband)
-These assets are licensed under the Creative Commons Attribution 3.0 
-Unported License (CC-BY 3.0): [license](http://creativecommons.org/licenses/by/3.0/)
+**Graphics:** 32x32 tileset by David Gervais, used in accordance with the Creative Commons license.  
+Tiles obtained via the [Angband](https://github.com/angband/angband) project.  
+Original tileset: `angband tiles` (food, terrain, monsters, weapons, potions, people, misc).
 
